@@ -1,0 +1,185 @@
+.sobre{
+    display: flex;
+    text-align: left;
+    font-size: 1.1rem;
+    height: 500px;
+    align-items: center;
+    justify-content: space-between;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: rgb(240, 238, 252);
+    padding: 30px;
+    height: 700px;
+    border-radius: 5px;
+    
+    
+}
+.container_sobre{
+    margin-left: auto;
+    margin-right: auto;
+    padding: 20px;
+
+}
+
+#animais{
+    border-radius: 100%;
+    padding: 20px;
+    background: linear-gradient(to bottom,#da266bb1, #1e1355);
+    object-fit: cover;
+    width: 400px;
+    height: 300px;
+}
+
+#circulo{
+    background-color: #e99443;
+    width: 600px;
+}
+
+.sobre p{
+    color:#572e99;
+    font-size: 1.2rem;
+}
+
+.forte{
+    color:#ce3771;
+}
+
+.slider{
+    margin: 0 auto;
+    width: 950px;
+    height: 550px;
+    overflow: hidden;
+    position: relative;
+   
+
+}
+.slides{
+    width: 400%;
+    height: 550px;
+    display: flex;
+    
+}
+.slides input{
+    display: none;
+
+}
+
+.slide {
+
+    width: 25%;
+    position: relative;
+
+}
+
+.slide img{
+    width: 950px;
+   height: 550px;
+   margin: 20px;
+   
+  
+   
+  
+}
+
+
+.manual-navigation{
+    position: absolute;
+    bottom: 20px;       
+    left: 50%;          
+    transform: translateX(-50%);
+    display: flex;
+    justify-content: center;
+    width: auto;
+}
+
+.manual-btn{
+    border: 2px solid white;
+    padding: 5px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: 0.7s;
+
+}
+
+
+
+.manual-btn:not(:last-child){
+    margin-right: 35px;
+}
+
+.manual-btn:hover{
+    background-color: white;
+}
+
+#radio1:checked ~ .first {
+    margin-left: 0;
+}
+
+#radio2:checked ~ .first {
+    margin-left: -25.6%;
+}
+
+#radio3:checked ~ .first {
+    margin-left: -50%;
+}
+
+#radio4:checked ~ .first {
+    margin-left: -75%;
+}
+
+#radio5:checked ~ .first {
+    margin-left: -100.5%;
+}
+
+#radio6:checked ~ .first {
+    margin-left: -125.8%;
+}
+
+.navigation-auto div{
+    border: 2px solid #304257;
+    padding: 5px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: 0.7s;
+
+}
+.navigation-auto{
+    position: absolute;
+    bottom: 20px;       
+    left: 50%;          
+    transform: translateX(-50%);
+    display: flex;
+    justify-content: center;
+    width: auto;
+}
+.navigation-auto div:not(:last-child){
+    margin-right: 35px;
+
+}
+
+#radio1:checked ~ .navigation-auto .btn1{
+    background-color: white;
+
+}
+#radio2:checked ~ .navigation-auto .btn2{
+    background-color: white;
+
+}
+#radio3:checked ~ .navigation-auto .btn3{
+    background-color: white;
+
+}
+#radio4:checked ~ .navigation-auto .btn4{
+    background-color: white;
+
+}
+#radio5:checked ~ .navigation-auto .btn5{
+    background-color: white;
+
+}
+#radio6:checked ~ .navigation-auto .btn6{
+    background-color: white;
+
+}
+
+

@@ -1,0 +1,98 @@
+#clinica{
+    height: 900px;
+    margin-top: 90px;
+    display: flex;
+    padding: 20px;
+    align-items: center;
+    
+    
+    
+    
+}
+
+#img-atendimento{
+    width: 600px;
+    height: 750px;
+    object-fit: cover;
+    border-radius: 10px;
+    
+}
+#icons-container{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    justify-content: space-around;
+    gap: 40px;
+    padding: 30px;
+    color: #230f41c2;
+    font-size: 1.5rem;
+    justify-content: center;
+    
+    
+    
+}
+
+
+
+#icons-container i{
+    color: #fff;
+    width: 60px;
+    height: 50px;
+    align-items: center;
+    padding: 10px;
+    background: linear-gradient(to bottom,#e81063, #1e1355);
+    border-radius: 10px;
+    
+}
+.clinica_container{
+    padding: 30px;
+    
+    
+}
+.clinica-text{
+    
+    height: 90%;
+    align-items: center;
+    text-align: center;
+    padding: 60px;
+    font-size: 1.5rem;
+    background: radial-gradient(#fff ,#f6f4ff);
+    border-radius: 10px;
+  
+    
+    
+}
+
+.clinica-text h2{
+    font-size: 1.75rem;
+
+}
+
+
+
+.clinica-text button{
+    margin-top: 10px;
+    border: 1px solid white;
+    background: #dc385e;
+    box-shadow: 0 0 1.5px #fff, 0 0 10px #dc385e;
+    width: 300px;
+    height: 80px;
+    border-radius: 20px;
+    font-size: 1.25rem;
+    transition: ease 0.7s;
+}
+
+.clinica-text button:hover{
+    background: #ff416d;
+    box-shadow: 0 0 2px #fff, 0 0 10px #dc385e, 0 0 20px #ff416d;
+}
+
+
+
+/* localização petcare */
+#localizacao{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    
+}

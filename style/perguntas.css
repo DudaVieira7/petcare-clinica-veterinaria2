@@ -1,0 +1,97 @@
+/* configurações de peguntas e respostas*/
+
+#perguntas{
+    background-color: rgb(240, 238, 252);
+    text-align: center;
+    padding: 20px;
+    
+
+}
+
+/* como eu criei os blocos de perguntas frequêntes*/
+
+.faqs{
+    background-color: white;
+    width: 600px;
+    margin: 5px 5px;
+    box-shadow:  5px 5px 20px rgba(77, 53, 113, 0.236);
+    border-radius: 0px 15px ;
+
+    
+
+}
+
+
+
+.pergunta{
+    background-color: white;
+    height: 60px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    border-radius: 0px 15px ;
+
+
+    
+}
+
+
+
+
+.abref{
+    cursor: pointer;
+    position: relative;
+    width: 24px;
+    height: 24px;
+    
+}
+
+.up{
+    display: none;
+}
+
+.up, .dow{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    margin: 0;
+
+    
+}
+
+.resposta{
+    padding: 10px;
+    display: none;
+    
+    
+}
+.bloco_perguntas{
+    padding: 25px;
+}
+.bloco_perguntas .faqs:first-child .resposta{
+    display: block;
+}
+
+.bloco_perguntas .faqs:first-child .up{
+    display:block !important;
+}
+
+.bloco_perguntas .faqs:first-child .down{
+    display: none !important;
+}
+
+.bloco_perguntas .faqs:first-child .pergunta{
+    background-color:#572e99 ;
+    color: white;
+}
+
+#allquestions{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    
+
+}
+

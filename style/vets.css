@@ -1,0 +1,108 @@
+/* Funcionarios da petCare*/
+
+
+#vets{
+    text-align: center;
+    background-color: #241958;
+    
+
+    
+}
+
+#vets h2{
+    font-size: 2rem;
+    color: #c3b5d6;
+    margin-bottom: 20px;
+    padding: 10px;
+    padding-top: 50px;
+}
+
+
+
+
+.flexinha {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    z-index: 100;
+    cursor: pointer;
+    color: rgb(101, 101, 101);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: 0.3s;
+    background-color: rgba(255, 255, 255, 0.5); 
+    border-radius: 50%;
+    width: 50px; 
+    height: 50px;
+    border: none;
+}
+
+.esquerda { left: 60px; }
+.direita { right: 60px; }
+
+.flexinha:hover {
+    color: black;
+    background-color: rgba(255, 255, 255, 0.9);
+}
+
+
+.vet-slider {
+    overflow: hidden; 
+    position: relative;
+    width: 100%; 
+    margin: 0 auto;
+    align-items: center;
+}
+
+
+.vet-slide {
+    display: flex;
+    width: 100%; 
+    transition: margin-left 0.5s ease-in-out;
+}
+
+
+.slide-vet {
+    width: 50%; 
+    flex-shrink: 0;
+    text-align: center;
+    padding: 30px;
+    margin-top: 10px;
+}
+.slide-vet h3{
+    color:#d6c7e9;
+    padding: 12px;
+    font-size: 1.2rem;
+}
+
+.slide-vet p{
+     color:#d6c7e99f;
+}
+
+.slide-vet img {
+    width: 100%;    
+    max-width: 400px; 
+    height: 500px;
+    object-fit: cover;
+    border-radius: 170px;
+    padding: 5px;
+    border: 3.5px solid #241958;
+    box-shadow: 4px 4px 5px rgba(45, 45, 45, 0.045);
+    box-shadow: 0 0 2px #fff, 0 0 10px #dc385e, 0 0 50px #ff416dad;
+    border-bottom: 20px;
+    filter: brightness(0.9);
+
+   
+}
+
+
+
+#vet1:checked ~ .vet-slide { margin-left: 0; }
+#vet2:checked ~ .vet-slide { margin-left: -50%; }
+#vet3:checked ~ .vet-slide { margin-left: -100%; }
+#vet4:checked ~ .vet-slide { margin-left: -150%; }
+#vet5:checked ~ .vet-slide { margin-left: -200%; }
+#vet6:checked ~ .vet-slide { margin-left: -250%; }
+#vet7:checked ~ .vet-slide { margin-left: -300%; }
+#vet8:checked ~ .vet-slide { margin-left: -350%; }

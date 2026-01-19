@@ -1,0 +1,66 @@
+#banho{
+    display: flex;
+    grid-template-columns: repeat(3, 1fr);
+    justify-content: space-around;
+    align-items: center;
+    background: #241958;
+    height: 410px;
+    
+    
+    
+    
+}
+
+.imagem_banho{
+    width: 300px;
+    height: 300px;
+    object-fit: cover;
+    border-radius: 110px;
+    border: 2px solid #fff2ea;
+    padding: 10px; 
+    background: linear-gradient(to right, #e6564c, #241958);
+    filter: brightness(0.90);
+    
+    
+}
+
+.container_banho{
+    text-align: center;
+    width: 90%;
+    color: #cecaedcf;
+    font-size: 1.25rem;
+    margin: 20px auto;
+}
+
+.container_banho h2{
+    color: #eb8484;
+    -webkit-text-stroke: 1px #d84668;
+    letter-spacing: 5px;
+    font-size: 2rem;
+    transition: ease 0.5s; 
+
+}
+.container_banho h2:hover{
+    color: #f596ac;
+    text-shadow: 0 0 2px #fff, 0 0 10px #dc385e, 0 0 30px #ff416d;
+    cursor: pointer;
+}
+
+
+.container_banho button{
+    margin-top: 10px;
+    border: 1px solid white;
+    background: #dc385e;
+    box-shadow: 0 0 1.5px #fff, 0 0 10px #dc385e;
+    width: 300px;
+    height: 80px;
+    border-radius: 20px;
+    font-size: 1.25rem;
+    transition: ease 0.7s;
+
+}
+.container_banho button:hover{
+    background: #ff416d;
+    box-shadow: 0 0 2px #fff, 0 0 10px #dc385e, 0 0 20px #ff416d;
+}
+
