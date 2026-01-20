@@ -16,13 +16,17 @@ header p{
 #inicio{
     display: flex;
     height: 200px;
-    position: relative;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
     justify-content: space-between;
     gap: 30px;
     border: 1px solid #b3a0d2;
     padding: 0 90px;
     background: radial-gradient( #1d1342,#19073d);
     letter-spacing: 0.6px;
+
+
     
     
   
@@ -109,6 +113,10 @@ header p{
     font-weight: 380;
     cursor: pointer;
     transition: 0.7s;
+}
+
+.nav-list{
+    display: flex;
 }
 
 

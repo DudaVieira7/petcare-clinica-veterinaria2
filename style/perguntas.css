@@ -4,6 +4,7 @@
     background-color: rgb(240, 238, 252);
     text-align: center;
     padding: 20px;
+    margin-top: 50px;
     
 
 }
@@ -83,7 +84,7 @@
 }
 
 .bloco_perguntas .faqs:first-child .pergunta{
-    background-color:#572e99 ;
+    background-color:#3b1f67 ;
     color: white;
 }
 

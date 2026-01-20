@@ -3,7 +3,7 @@
 
 #vets{
     text-align: center;
-    background-color: #241958;
+     background: radial-gradient( #1d1342,#19073d);
     
 
     
@@ -14,7 +14,8 @@
     color: #c3b5d6;
     margin-bottom: 20px;
     padding: 10px;
-    padding-top: 50px;
+    padding-top: 60px;
+    
 }
 
 
@@ -72,7 +73,7 @@
 }
 .slide-vet h3{
     color:#d6c7e9;
-    padding: 12px;
+    padding: 20px;
     font-size: 1.2rem;
 }
 

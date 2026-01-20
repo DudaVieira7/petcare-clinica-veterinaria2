@@ -3,7 +3,7 @@
     grid-template-columns: repeat(3, 1fr);
     justify-content: space-around;
     align-items: center;
-    background: #241958;
+    background: radial-gradient( #1d1342,#19073d);
     height: 410px;
     
     

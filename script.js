@@ -90,7 +90,7 @@ todasPerguntas.forEach((faq) =>{
             resposta.style.display = "block";
             up.style.display = "block";
             down.style.display = "none";
-            pergunta.style.background = "#572e99";
+            pergunta.style.background = "#3b1f67";
             pergunta.style.color = "#fff";
 
 

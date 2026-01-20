@@ -24,16 +24,13 @@
 #animais{
     border-radius: 100%;
     padding: 20px;
-    background: linear-gradient(to bottom,#da266bb1, #1e1355);
+    background: linear-gradient(to bottom,#c82e69, #1f1251);
     object-fit: cover;
     width: 400px;
     height: 300px;
 }
 
-#circulo{
-    background-color: #e99443;
-    width: 600px;
-}
+
 
 .sobre p{
     color:#572e99;

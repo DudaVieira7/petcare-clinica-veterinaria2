@@ -4,33 +4,66 @@
     align-items: center;
     justify-content: space-between;
     gap: 35px;
-    background-color: rgba(240, 238, 252, 0.399);
+    background-color: rgb(240, 238, 252);
     height: 775px;
+    align-items: center;
+    justify-content: center;
     
 }
 
 
 #vet-cat{
-    width: 400px;
-    margin-top: 40px;
+    width: 360px;
+    margin: 20px;
     border-radius: 5px;
+    margin-left: auto;
+    margin-right: auto;
     
     
 }
 
 .container_servicos{
     align-items: center;
-    background-color: rgb(249, 248, 252);
+    background-color: #f0eef9fd;
     text-align: center;
-    border: 3.5px solid #e64cab;
-    width: 100%;
+    border: 3px solid #440a66af;
+    width: 90%;
     height: 700px;
     border-radius: 10px;
     justify-content: center;
+    text-align: center;
     box-shadow: 4px 4px 5px rgba(45, 45, 45, 0.045);
+    padding: auto;
+    margin-left: auto;
+    margin-right: auto;
+    transition: ease 0.5s;
+    cursor: pointer;
 
     
 
+}
+
+.container_servicos:hover{
+    transform: translateY(-10px);
+    box-shadow: 0 0 2px #fff, 0 0 10px #8863a059, 0 0 40px #2319581d;
+
+}
+
+.container_servicos:nth-child(2){
+
+    box-shadow: 0 0 2px #fff, 0 0 10px #8863a0, 0 0 40px #231958d5;
+    cursor: pointer;
+}
+
+
+.pets-atendimento i{
+    width: 50px;
+    height: 50px;
+    font-size: 3rem;
+    align-items: center;
+    margin: 5px;
+
+    
 }
 .vet_dog{
     justify-content: center;
@@ -52,29 +85,29 @@
 }
 
 .atendimento{
-    background-color: #4a068915;
-    font-size: 1rem;
-    text-align: center;
+    background-color: #f5f1f9fd;
     height: 215px;
-    padding-bottom:  0 17px;
-    width: 90%;
+    padding: 0 30px;
+    width: 80%;
     border-radius: 10px;
     box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.049);
-    border: 1px  solid rgba(0, 0, 0, 0.368);
-    margin: 10px auto;
-    align-items: center;
-    justify-items: center;
-}
-
-.atendimento img{
-    width: 100px;
-    height: 100px;
-    border-radius: 10px;
-    filter: brightness(1); 
-    box-shadow: 6px 6px 7px rgba(0, 0, 0, 0.049);
-
+    border: 1.5px  solid #c82e69;
+    display: flex;
+    flex-direction: column;    
+    justify-content: center;  
+    align-items: center; 
+    margin-left: auto; 
+    margin-right: auto; 
+    margin-top: 10px;    
 
 }
+
+
+    
+    
+
+
+
 .atendimento h3{
     font-size: 1.25rem;
     color: #241958;

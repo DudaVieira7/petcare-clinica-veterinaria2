@@ -4,6 +4,7 @@
     display: flex;
     padding: 20px;
     align-items: center;
+
     
     
     
@@ -19,7 +20,7 @@
 }
 #icons-container{
     display: grid;
-    grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: repeat( 2,1fr);
     justify-content: space-around;
     gap: 40px;
     padding: 30px;
@@ -43,11 +44,15 @@
     border-radius: 10px;
     
 }
+
+
 .clinica_container{
     padding: 30px;
     
     
 }
+
+
 .clinica-text{
     
     height: 90%;
@@ -55,7 +60,7 @@
     text-align: center;
     padding: 60px;
     font-size: 1.5rem;
-    background: radial-gradient(#fff ,#f6f4ff);
+    background: #e1ddf1ac;
     border-radius: 10px;
   
     
@@ -94,5 +99,6 @@
     flex-direction: column;
     align-items: center;
     gap: 20px;
+    
     
 }
