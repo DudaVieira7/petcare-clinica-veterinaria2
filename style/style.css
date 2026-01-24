@@ -97,3 +97,42 @@ iframe{
     font-size: 1rem;
     padding: 5px;
  }
+
+
+
+ /* ajustando a responsividade da página inicial da landing page da petcare */
+
+@media (max-width: 1300px ){
+    
+    
+
+    body{
+        box-sizing: border-box;
+        align-items: center;
+        justify-content: center;
+        position: absolute;
+    }
+}
+
+
+@media (max-width: 500px){
+
+    .logo{
+        width: 150px;
+        height: 150px;
+    }
+
+
+    .ligar{
+        width: 150px;
+        height: 30px;
+    }
+}
+
+
+@media (max-width:370px){
+    #servicos{
+    display: block;
+    
+}
+}
