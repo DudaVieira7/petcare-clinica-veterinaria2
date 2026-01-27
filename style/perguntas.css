@@ -96,3 +96,49 @@
 
 }
 
+@media screen and (max-width:360px) {
+    #perguntas{
+        width: 90%;
+        margin-left: auto;
+        margin-right: auto;
+        
+    }
+    #allquestions{
+        width: 70%;
+    }
+
+
+    
+    
+}
+
+@media screen and (max-width: 350px) {
+    #perguntas{
+        width: 90%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .bloco_perguntas{
+        width: 90%;
+        margin-left: 50px;
+        padding: 20px;
+        justify-content: space-between;
+    }
+
+    .pergunta{
+        padding: 30px;
+    }
+
+    .faqs{
+        width: 500px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    
+    
+}
+
+
+

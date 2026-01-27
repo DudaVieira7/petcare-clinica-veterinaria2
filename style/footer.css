@@ -4,6 +4,7 @@ footer{
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
+    text-align: center;
 
     
 }
@@ -24,11 +25,19 @@ footer{
 }
 
 .link-container{
+
+    
     display: grid;
     grid-template-columns: repeat(2,1fr);
     text-align: left;
     margin-top: 10px;
     
+}
+
+#conteudo-f{
+    display: flex;
+    justify-content: center;
+    grid-template-rows: repeat(3, 1fr);
 }
 
 .link-container span{
@@ -55,7 +64,7 @@ footer{
 
 
 #adicionais{
-    text-align: center;
+    
     padding: 30px;
 }
 
@@ -73,4 +82,32 @@ footer{
 
 #redes i:hover{
     color: white;
+}
+
+
+@media screen and (max-width:370px) {
+    .footer-container{
+        display: block;
+        width: 400px;
+        z-index: auto;
+        justify-content: end;
+        margin: 20px;
+       
+        
+
+    }
+    footer{
+        justify-content: start;
+        padding: 10px;
+      
+    }
+
+    
+    #adicionais{
+        width: 100%;
+        justify-content: center;
+        text-align: start;
+        
+    }
+    
 }

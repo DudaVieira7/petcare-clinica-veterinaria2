@@ -107,3 +107,33 @@
 #vet6:checked ~ .vet-slide { margin-left: -250%; }
 #vet7:checked ~ .vet-slide { margin-left: -300%; }
 #vet8:checked ~ .vet-slide { margin-left: -350%; }
+
+
+@media screen and (max-width:370px) {
+    #vets{
+        width: 80%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .vet-slide{
+        width: 100%;
+    }
+    .esquerda {left: 45px;}
+    .direita {right: 45px}
+    
+}
+
+@media screen and (max-width:360px) {
+    #vets{
+        margin-left: 110px;
+    }
+
+    .vet-slide{
+        width: 90%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .esquerda {left: 150px;}
+    .direita {right: 150px}
+    
+}

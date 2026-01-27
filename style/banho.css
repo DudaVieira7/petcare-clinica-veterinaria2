@@ -99,20 +99,22 @@
     #banho{
         width: 85%;
         margin-right: auto;
-        padding: 0 100px;
+        padding: 100px;
+        justify-content: start;
+        align-items: start;
         
     }
 
     .container_banho{
-        width: 30%;
+        width: 33%;
+        align-items: center;
+        justify-content: center;
         text-align: center;
         margin-left: auto;
         margin-right: auto;
     }
 
-    .container_banho:first-child{
-        justify-content: end;
-    }
+    
     
 }
 
