@@ -4,11 +4,10 @@
     align-items: center;
     justify-content: space-between;
     gap: 35px;
-    background-color: rgb(240, 238, 252);
-    height: auto;
+    background-color: #aad0e3;
     align-items: center;
     justify-content: center;
-    margin: 20px;
+    margin: 10px;
     
 }
 
@@ -27,7 +26,7 @@
     align-items: center;
     background-color: #f0eef9fd;
     text-align: center;
-    border: 3px solid #440a66af;
+    border: 3px solid #3465df;
     width: 90%;
     height: 700px;
     border-radius: 10px;
@@ -44,32 +43,7 @@
 
 }
 
-@media screen and  (max-width:370px){
-    #servicos{
-        display: block;
-        width: 90%;
-        margin-left: auto;
-        margin-right: auto;
-        justify-content: start;
-        align-items: center;
-    }
-    .container_servicos{
-        width: 60%;
-        margin-left: auto;
-        margin-right: auto;
-        padding: 0 30px;
-        margin-top: 20px;
-    }
-    .atendimento{
-        width: 90%;
-        padding: 0 20px;
-    }
 
-    #vet-cat{
-        width: 62%;
-    }
-    
-}
 
 .container_servicos:hover{
     transform: translateY(-5px);
@@ -90,6 +64,7 @@
     font-size: 3rem;
     align-items: center;
     margin: 5px;
+    color: #203f9a;
 
     
 }
@@ -107,7 +82,7 @@
 }
 
 .container_servicos p{
-    color:#4e2096;
+    color:#060a0ccf;
     font-size: 1rem;
     padding:  0  20px;
 }
@@ -119,7 +94,7 @@
     width: 80%;
     border-radius: 10px;
     box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.049);
-    border: 1.5px  solid #c82e69;
+    border: 1.5px  solid #64ceaf;
     display: flex;
     flex-direction: column;    
     justify-content: center;  
@@ -138,9 +113,36 @@
 
 .atendimento h3{
     font-size: 1.25rem;
-    color: #241958;
+    color: #2854ad;
     font-weight: 800;
     
     
 
+}
+
+@media screen and (max-width: 500px) {
+    #servicos{
+        
+        display: flex;
+        flex-direction: column;
+    }
+    .container_servicos{
+        width: 90%;
+        height: 100%;
+    
+
+    }
+    #vet-cat{
+    width: 800px;
+    height: 400px;
+    object-fit: cover;
+    margin: 10px
+    }
+    .atendimento h3{
+        font-size: 2.5rem ;
+        font-weight: 400;
+    }
+    .orange h3 p{
+        font-size: 2.5rem;
+    }
 }

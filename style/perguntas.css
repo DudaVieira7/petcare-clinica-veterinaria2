@@ -1,7 +1,6 @@
 /* configurações de peguntas e respostas*/
 
 #perguntas{
-    background-color: rgb(240, 238, 252);
     text-align: center;
     padding: 20px;
     margin-top: 50px;
@@ -63,6 +62,7 @@
 }
 
 .resposta{
+    background-color: #f0faff;
     padding: 10px;
     display: none;
     
@@ -84,7 +84,7 @@
 }
 
 .bloco_perguntas .faqs:first-child .pergunta{
-    background-color:#3b1f67 ;
+    background-color:#203f9a ;
     color: white;
 }
 
@@ -95,50 +95,4 @@
     
 
 }
-
-@media screen and (max-width:360px) {
-    #perguntas{
-        width: 90%;
-        margin-left: auto;
-        margin-right: auto;
-        
-    }
-    #allquestions{
-        width: 70%;
-    }
-
-
-    
-    
-}
-
-@media screen and (max-width: 350px) {
-    #perguntas{
-        width: 90%;
-        margin-left: auto;
-        margin-right: auto;
-    }
-
-    .bloco_perguntas{
-        width: 90%;
-        margin-left: 50px;
-        padding: 20px;
-        justify-content: space-between;
-    }
-
-    .pergunta{
-        padding: 30px;
-    }
-
-    .faqs{
-        width: 500px;
-        margin-left: auto;
-        margin-right: auto;
-    }
-
-    
-    
-}
-
-
 

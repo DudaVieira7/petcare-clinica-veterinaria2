@@ -40,7 +40,7 @@
     height: 50px;
     align-items: center;
     padding: 10px;
-    background: linear-gradient(to bottom,#e81063, #1e1355);
+    background: linear-gradient(to bottom,#64ceaf, #3465df);
     border-radius: 10px;
     
 }
@@ -60,7 +60,6 @@
     text-align: center;
     padding: 60px;
     font-size: 1.5rem;
-    background: #e1ddf1ac;
     border-radius: 10px;
   
     
@@ -88,7 +87,7 @@
 
 .clinica-text button:hover{
     background: #ff416d;
-    box-shadow: 0 0 2px #fff, 0 0 10px #dc385e, 0 0 20px #ff416d;
+    box-shadow: 0 0 2px #fff, 0 0 10px #e7584d, 0 0 20px #ff416d;
 }
 
 
@@ -102,45 +101,4 @@
     
     
 }
- @media screen and (max-width: 370px) {
-    #localizacao{
-        width: 80%;
-        align-items: center;
-        margin-left: 80px;
-    }
-    .clinica-text{
-        font-size: 1rem;
-        width: 50%;
-        text-align: center;
-        align-items: center;
-        justify-content: center;
-        padding-top: 100px ;
-    }
-
-    #conteudo-tex{
-        align-items: center;
-        width: 85%;
-        justify-content: center;
-        padding: 10px;
-
-        
-    }
-
-    #clinica{
-        width: 100%;
-        padding: 0 50px;
-        justify-content: center ;
-        align-items: left;
-        margin-right: auto;
-        margin-left: auto;
-        
-    }
-    
-    
-    #img-atendimento{
-        width: 500px;
-        margin: 0;
-        justify-content: end;
-    }
-    
- }
+ 

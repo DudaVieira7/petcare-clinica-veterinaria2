@@ -10,8 +10,8 @@
 
 body{
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-     background-color: rgb(255, 255, 255);
-     overflow-x: hidden;
+     position: absolute;
+     background: #f2efe8;
      
     
     
@@ -20,15 +20,15 @@ body{
 
 
 .logo{
-    width: 200px;
-    height: 200px;
+    width: 150px;
+    height: 150px;
     object-fit: cover;
 }
 
 button.ligar{
     margin-top: 10px;
     border: 1px solid white;
-    background: #dc385e;
+    background: #e8574d;
     box-shadow: 0 0 1.5px #fff, 0 0 10px #dc385e;
     width: 300px;
     height: 80px;
@@ -40,8 +40,8 @@ button.ligar{
 }
 
 button.ligar:hover{
-    background: #ff416d;
-    box-shadow: 0 0 2px #fff, 0 0 10px #dc385e, 0 0 20px #ff416d9f;
+    background: #ff3e30;
+    box-shadow: 0 0 2px #fff, 0 0 10px #e8574d, 0 0 20px #e8574dbe;
     
    
 }
@@ -54,7 +54,7 @@ h2, h1{
   font-family: "Titan One", sans-serif;
   font-weight: 400;
   font-style: normal;
-  color: #3b1f67;
+  color: #2854ad;
 }
 
 h2{
@@ -79,7 +79,9 @@ iframe{
 
  #chegar{
     padding: 0px 20px;
-    background: #3b1f67;
+    background: #64ceaf;
+    border: 1px solid white;
+    box-shadow: 0 0 1.5px #fff, 0 0 10px #64ceaf;
     color: white;
     height: 50px;
     border-radius: 7px;
@@ -89,7 +91,8 @@ iframe{
  }
 
  #chegar:hover{
-    background: #603d98;
+    background: #e7584d;
+    box-shadow: 0 0 1.5px #fff, 0 0 10px #e7584d;
  }
 
  #chegar a{
@@ -101,112 +104,4 @@ iframe{
 
 
 
- /* ajustando a responsividade da página inicial da landing page da petcare */
-
-@media (max-width: 1300px ){
-    
-    
-
-    body{
-        box-sizing: border-box;
-        align-items: center;
-        justify-content: center;
-        position: absolute;
-        
-    }
-}
-
-
-@media (max-width: 500px){
-
-    .logo{
-        width: 150px;
-        height: 150px;
-    }
-
-
-    .ligar{
-        width: 150px;
-        height: 30px;
-    }
-}
-
-
-@media screen and (max-width: 370px){
-    #servicos{
-    display: block;
-    
-    
-}
-.sobre{
-    width: 100%;
-    font-size: 0.9rem;
-}
-
-.container_sobre{
-    padding: 20px;
-    width: 50%;
-    
-}
-
-#inicio{
-    
-    justify-content: center;
-    padding: 0px 10px;
-    width: 100%;
-}
-
-.nav-list{
-    
-    width: 30%;
-    justify-content: end;
-    margin-left: 60px;
-}
-header{
-    width: 90%;
-    align-items: center;
-
-}
-
-.vet-inicio{
-    justify-content: center;
-}
-.veterinaria-container{
-    justify-content: center;
-    align-items: center;
-    text-align: left;
-}
-.vet-inicio .veterinaria-container:first-child {
-    margin-left: auto;
-    margin-right: auto;
-}
-.slider{
-    align-items: center;
-    margin-right: auto;
-    
-}
-
- #ligar1{
-    margin-right: 300px
-    
-}
-
-#servicos{
-    height: auto;
-    padding: 20px 0px;
-    width: 100%;
-    margin: 0;
-    gap: 10px;
-    
-}
-.container_servicos{
-    height: auto;
-    padding: 0px 5px;
-    margin-bottom: 20px;
-    width: 30%;
-    display: block;
-
-}
-
-
-}
+ 

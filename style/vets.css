@@ -3,7 +3,8 @@
 
 #vets{
     text-align: center;
-     background: radial-gradient( #1d1342,#19073d);
+   background: #7aa0cf;
+    
     
 
     
@@ -11,7 +12,6 @@
 
 #vets h2{
     font-size: 2rem;
-    color: #c3b5d6;
     margin-bottom: 20px;
     padding: 10px;
     padding-top: 60px;
@@ -72,13 +72,13 @@
     margin-top: 10px;
 }
 .slide-vet h3{
-    color:#d6c7e9;
+    color:#3465df;
     padding: 20px;
     font-size: 1.2rem;
 }
 
 .slide-vet p{
-     color:#d6c7e99f;
+     color:#f2efe8d3;
 }
 
 .slide-vet img {
@@ -86,11 +86,10 @@
     max-width: 400px; 
     height: 500px;
     object-fit: cover;
-    border-radius: 170px;
-    padding: 5px;
-    border: 3.5px solid #241958;
-    box-shadow: 4px 4px 5px rgba(45, 45, 45, 0.045);
-    box-shadow: 0 0 2px #fff, 0 0 10px #dc385e, 0 0 50px #ff416dad;
+    border-radius: 200px;
+    padding: 15px;
+    background: linear-gradient(to bottom,#64ceaf, #3465df);
+    border: 3.5px solid #3465df;
     border-bottom: 20px;
     filter: brightness(0.9);
 
@@ -109,31 +108,3 @@
 #vet8:checked ~ .vet-slide { margin-left: -350%; }
 
 
-@media screen and (max-width:370px) {
-    #vets{
-        width: 80%;
-        margin-left: auto;
-        margin-right: auto;
-    }
-    .vet-slide{
-        width: 100%;
-    }
-    .esquerda {left: 45px;}
-    .direita {right: 45px}
-    
-}
-
-@media screen and (max-width:360px) {
-    #vets{
-        margin-left: 110px;
-    }
-
-    .vet-slide{
-        width: 90%;
-        margin-left: auto;
-        margin-right: auto;
-    }
-    .esquerda {left: 150px;}
-    .direita {right: 150px}
-    
-}

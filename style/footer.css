@@ -1,5 +1,5 @@
 footer{
-    background-color: #241958;
+    background-color: #203f9a;
     color: white;
     display: flex;
     flex-wrap: wrap;
@@ -51,7 +51,7 @@ footer{
     font-weight: 300;
 }
 .link-container a:hover{
-    color: #f55f82d4;
+    color: #e7584d;
 }
 
  .logo #logoft{
@@ -64,12 +64,12 @@ footer{
 
 
 #adicionais{
-    
+    color: #eeecc89f;
     padding: 30px;
 }
 
 #adicionais a{
-    color: #f55f8279 ;
+    color: #64ceaf ;
 }
 
 #redes i{
@@ -85,33 +85,3 @@ footer{
 }
 
 
-@media screen and (max-width:370px) {
-    .footer-container{
-        display: block;
-        width: 400px;
-        margin-left: 5gi0px;
-        justify-content: center;
-        align-items: center;
-        padding: 0 20px;
-        text-align: center;
-
-       
-        
-
-    }
-    footer{
-        justify-content: start;
-        padding: 10px;
-      
-    }
-
-    
-    #adicionais{
-        width: 90%;
-        justify-content: center;
-        text-align: center;
-
-        
-    }
-    
-}
