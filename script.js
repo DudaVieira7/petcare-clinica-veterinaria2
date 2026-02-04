@@ -98,3 +98,31 @@ todasPerguntas.forEach((faq) =>{
         }
     })
 });
+
+//menu de navegação mobile//
+
+const button = document.getElementById("mobile-abf");
+const abre = document.querySelector(".abrir");
+const fecha = document.querySelector(".fechar");
+const menu = document.querySelector(".nav-list-mobile");
+
+
+let menuAberto = window.getComputedStyle(menu).display === "block";
+
+button.addEventListener("click", () => {
+    if (menuAberto){
+        menu.style.display = "none";
+        abre.style.display = "block";
+        fecha.style.display = "none";
+
+        menuAberto = false;
+    }
+    else{
+        menu.style.display = "block";
+        abre.style.display = "none";
+        fecha.style.display = "block";
+
+        menuAberto = true;
+
+    }
+});

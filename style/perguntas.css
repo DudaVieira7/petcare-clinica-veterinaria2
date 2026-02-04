@@ -12,7 +12,7 @@
 
 .faqs{
     background-color: white;
-    width: 600px;
+    width: 95%;
     margin: 5px 5px;
     box-shadow:  5px 5px 20px rgba(77, 53, 113, 0.236);
     border-radius: 0px 15px ;
@@ -70,6 +70,7 @@
 }
 .bloco_perguntas{
     padding: 25px;
+    width: 95%;
 }
 .bloco_perguntas .faqs:first-child .resposta{
     display: block;
@@ -89,10 +90,19 @@
 }
 
 #allquestions{
+    width: 100%;
     display: flex;
     align-items: center;
     justify-content: space-evenly;
     
 
+}
+
+@media screen and (max-width: 500px) {
+    #allquestions{
+        display: flex;
+        flex-direction: column;
+    }
+    
 }
 

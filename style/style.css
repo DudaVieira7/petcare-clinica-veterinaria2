@@ -5,17 +5,23 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    
+   
 }
 
 
 body{
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-     position: absolute;
      background: #f2efe8;
+    
      
     
     
     
+}
+main{
+    justify-content: center;
+    align-items: center;
 }
 
 
@@ -69,13 +75,7 @@ h4{
     
 }
 
-iframe{
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    padding: 10px;
-    margin-bottom: 50px;
-}
+
 
  #chegar{
     padding: 0px 20px;

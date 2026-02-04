@@ -1,31 +1,38 @@
 
 header{
-    width: 100%;
+    max-width: 100%;
     background-color: rgb(255, 255, 255);
     font-size: 1.25rem;
-    justify-content: space-between;
-    margin-left: auto;
-    margin-right: auto;
+    justify-content: center;
+    
+    
     
     
    
 
 }
+header .nav-list-mobile{
+    gap: 30px;
+    text-align: center;
+    
+}
+
+
+
+
 header p{
     font-size: 1.5rem;
 }
 
 #inicio{
+    width: 100%;
     display: flex;
-    height: 150px;
-    position: sticky;
-    z-index: 1000;
+    height: 100%;
     justify-content: space-between;
-    gap: 30px;
-    border: 1px solid #b3a0d2;
-    padding: 0 90px;
     background: #7aa0cf;
     letter-spacing: 0.6px;
+    margin-left: auto;
+    margin-right: auto;
 
 
     
@@ -36,8 +43,10 @@ header p{
 
 
 #ligar1{
+    width: 25%;
     margin-top: 30px;
     background: #e8564d;
+    margin-left: 30px;
 }
 
 
@@ -96,6 +105,8 @@ header p{
 }
 #menu-mobile{
     display: none;
+    font-size: 30px; 
+    color: #f2efe8;
 }
 
 
@@ -108,8 +119,8 @@ header p{
 #inicio ul{
     display: flex;
     justify-content: space-between;
+    gap: 30px;
     align-items: center;
-    gap:  90px;
     list-style: none;
 }
 
@@ -133,115 +144,130 @@ header p{
     border-bottom: 1.5px solid #ff416d;
 }
 
-
-
-
-/* ajustando a responsividade para o mobile*/
-
-@media screen and (max-width: 500px) {
-    #inicio{
-        height: 45vh;
-        align-items: center;
-        justify-content: space-evenly;
-
-    }
-    #inicio ul{
-        display: none;
-    }
-    .logo{
-    width: 350px;
-    height: 350px;
-    
-    }
-    #ligar1{
-    width: 450px;
-    height: 120px;
-    font-size: 2.2rem;
-    letter-spacing: 0.5px;
-    }
-
-    #menu-mobile{
-        display: block;
-        font-size: 90px;
-        font-family: 5px;
-        color: #f2efe8;
-    }
-
-    #veterinaria{
-        height: 100% !important;
-        width: 100% !important;
-        object-fit: cover;
-        position: absolute;
-    }
-
-    .vet-inicio p{
-        align-items: center;
-    }
-
-    .vet-inicio {
-        position: relative; /* Pai de todos */
-        width: 100%;
-        height: 100vh; /* Ocupa a tela inteira */
-        display: block; /* Desativa o flex que separa os lados */
-        padding: 0;
-        margin: 0;
-    }
-    .vet-inicio .veterinaria-container:last-child {
-        position: absolute !important;
-        top: 0;
-        left: 0;
-        width: 100%;
-        height: 100%;
-        z-index: 1; /* Camada de baixo */
-    }
-    .vet-inicio .veterinaria-container:first-child{
-        position: absolute;
-        top: 50%;
-        left: 50%;
-        transform: translate(-50%, -50%);
-        width: 100%;
-        z-index: 2;
-        padding: 20px;
-        box-sizing: border-box;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        text-align: center;
-    }
-    
-
-    .vet-inicio .veterinaria-container:last-child{
-        position: absolute;
-        top: 0;
-        left: 0;
-        width: 100%;
-        height: 100vh;
-        z-index: 1;
-    }
-
-    .conteudo-vet{
-        padding: 0 30px;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        font-size: 2.5rem;
-        text-align: center;
-    }
-
-    .conteudo-vet p{
-        font-size: 2.5rem;
-        padding: 50px;
-    }
-    .botoes .ligar{
-        width: 450px;
-        height: 125px;
-        gap: 100px;
-        font-size: 2.2rem;
-        letter-spacing: 0.5px;
-        
-    }
-
-    
+.nav-list-mobile{
+    display:none;
+    box-sizing: border-box;
+    background-color: #2854a4;
     
 }
 
+.nav-list-mobile a, ul{
+    color: #ff416d;
+    font-size: 1.2rem;
+    text-decoration: none;
+    list-style: none;
+    transition: ease 0.5s;
+
+}
+
+.nav-list-mobile a:hover{
+    color: white;
+    font-weight: 480;
+    border-bottom: 1.5px solid #e7584d;
+
+}
+.nav-list-mobile ul{
+    padding: 15px;
+    gap: 10px;
+}
+
+.fechar{
+    color: white;
+    font-size: 30px;
+    width: 30px;
+    align-items: center;
+    height: 30
+    font-weight: 800;
+    display: none;
+    background: #e7584d;
+    border-radius: 15%;
+    border: 1px solid white;
+    
+    
+
+}
+
+#mobile-abf{
+    text-align: center;
+    align-items: center;
+    cursor: pointer;
+    position: relative;
+    width: 30px;
+    height: 30px;
+    
+}
+
+
+.abrir, .fechar{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    margin: 0;
+
+}
+
+/* ajustando a responsividade para o mobile*/
+
+@media screen and (max-width:768px) {
+    #inicio {
+        height: auto; 
+        padding: 15px;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    #inicio ul {
+        display: none; 
+    }
+
+    .logo {
+        width: 100px; 
+        height: 100px;
+    }
+
+    #ligar1 {
+        display: none; 
+    }
+
+    #menu-mobile {
+       
+        display: block;
+        font-size: 25px;
+        color: #f2efe8;
+    }
+
+    
+    .vet-inicio {
+        height: 80vh; 
+    }
+
+    .conteudo-vet {
+        padding: 0 20px;
+        width: 100%;
+    }
+
+    .conteudo-vet h1 {
+        font-size: 1.8rem !important; 
+        line-height: 1.2;
+    }
+
+    .conteudo-vet p {
+        font-size: 1.1rem !important; 
+        padding: 15px 0 !important;
+    }
+
+    .botoes {
+        flex-direction: column; 
+        gap: 15px;
+        width: 100%;
+    }
+
+    .botoes .ligar {
+        width: 100% !important; 
+        max-width: 280px; 
+        height: 60px;
+        font-size: 1.1rem;
+    }
+}

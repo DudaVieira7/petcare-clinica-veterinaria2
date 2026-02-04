@@ -1,8 +1,8 @@
 #clinica{
-    height: 900px;
+    width: 100%;
     margin-top: 90px;
     display: flex;
-    padding: 20px;
+    padding: 10px;
     align-items: center;
 
     
@@ -12,13 +12,14 @@
 }
 
 #img-atendimento{
-    width: 600px;
-    height: 750px;
+    width: 100%;
+    height: 100%;
     object-fit: cover;
     border-radius: 10px;
     
 }
 #icons-container{
+    width: 100%;
     display: grid;
     grid-template-columns: repeat( 2,1fr);
     justify-content: space-around;
@@ -37,7 +38,7 @@
 #icons-container i{
     color: #fff;
     width: 60px;
-    height: 50px;
+    height: 60px;
     align-items: center;
     padding: 10px;
     background: linear-gradient(to bottom,#64ceaf, #3465df);
@@ -54,11 +55,10 @@
 
 
 .clinica-text{
-    
-    height: 90%;
+    width: 100%;
+    height: 100%;
     align-items: center;
     text-align: center;
-    padding: 60px;
     font-size: 1.5rem;
     border-radius: 10px;
   
@@ -78,7 +78,7 @@
     border: 1px solid white;
     background: #dc385e;
     box-shadow: 0 0 1.5px #fff, 0 0 10px #dc385e;
-    width: 300px;
+    width: 50%;
     height: 80px;
     border-radius: 20px;
     font-size: 1.25rem;
@@ -102,3 +102,12 @@
     
 }
  
+
+@media screen and (max-width: 500px) {
+    #clinica{
+        display: flex;
+        flex-direction: column;
+    }
+
+    
+}

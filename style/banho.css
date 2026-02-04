@@ -11,7 +11,7 @@
 }
 
 .imagem_banho{
-    width: 300px;
+    width: 90%;
     height: 300px;
     object-fit: cover;
     border-radius: 110px;
@@ -61,6 +61,19 @@
 .container_banho button:hover{
     background: #64ceae9e;
     box-shadow: 0 0 2px #fff, 0 0 10px #e7584d, 0 0 20px #ff416d;
+}
+
+@media screen {
+    
+}
+
+@media screen and (max-width: 500px) {
+
+    #banho{
+        display: flex;
+        flex-direction: column;
+    }
+    
 }
 
 

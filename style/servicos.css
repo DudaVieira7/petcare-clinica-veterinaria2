@@ -1,6 +1,6 @@
 #servicos{
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: 1fr;
     align-items: center;
     justify-content: space-between;
     gap: 35px;
@@ -13,7 +13,7 @@
 
 
 #vet-cat{
-    width: 360px;
+    width: 100%;
     margin: 20px;
     border-radius: 5px;
     margin-left: auto;
@@ -120,29 +120,10 @@
 
 }
 
-@media screen and (max-width: 500px) {
-    #servicos{
-        
-        display: flex;
-        flex-direction: column;
-    }
-    .container_servicos{
-        width: 90%;
-        height: 100%;
+@media screen and (min-width:1024px) {
     
-
-    }
-    #vet-cat{
-    width: 800px;
-    height: 400px;
-    object-fit: cover;
-    margin: 10px
-    }
-    .atendimento h3{
-        font-size: 2.5rem ;
-        font-weight: 400;
-    }
-    .orange h3 p{
-        font-size: 2.5rem;
+    #servicos{
+        grid-template-columns: repeat(3,1fr);
     }
 }
+
