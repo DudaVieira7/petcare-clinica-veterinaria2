@@ -105,6 +105,7 @@ const button = document.getElementById("mobile-abf");
 const abre = document.querySelector(".abrir");
 const fecha = document.querySelector(".fechar");
 const menu = document.querySelector(".nav-list-mobile");
+const corpo =document.querySelector("#inicio");
 
 
 let menuAberto = window.getComputedStyle(menu).display === "block";
@@ -114,6 +115,7 @@ button.addEventListener("click", () => {
         menu.style.display = "none";
         abre.style.display = "block";
         fecha.style.display = "none";
+        corpo.style.background = "#3465df";
 
         menuAberto = false;
     }
@@ -121,6 +123,7 @@ button.addEventListener("click", () => {
         menu.style.display = "block";
         abre.style.display = "none";
         fecha.style.display = "block";
+         corpo.style.background = "#3465df";
 
         menuAberto = true;
 

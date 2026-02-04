@@ -51,7 +51,7 @@
     border: 1px solid white;
     background: #64ceaf;
     box-shadow: 0 0 1.5px #fff, 0 0 10px #64ceaf;
-    width: 300px;
+    width: 80%;
     height: 80px;
     border-radius: 20px;
     font-size: 1.25rem;
@@ -67,12 +67,14 @@
     
 }
 
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 755px) {
 
     #banho{
         display: flex;
         flex-direction: column;
     }
+
+    
     
 }
 

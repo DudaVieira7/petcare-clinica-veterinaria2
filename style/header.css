@@ -29,10 +29,11 @@ header p{
     display: flex;
     height: 100%;
     justify-content: space-between;
-    background: #7aa0cf;
+    background: #3465df;
     letter-spacing: 0.6px;
     margin-left: auto;
     margin-right: auto;
+    transition: ease 1s;
 
 
     
@@ -126,7 +127,7 @@ header p{
 
 #inicio a {
     text-decoration: none;
-    color: white;
+    color: #abd2e3;
     font-size: 1.2rem;
     font-weight: 380;
     cursor: pointer;
@@ -139,7 +140,7 @@ header p{
 
 
 #inicio a:hover{
-    color:#2854a4;
+    color:white;
     font-weight: 480;
     border-bottom: 1.5px solid #ff416d;
 }
@@ -147,12 +148,12 @@ header p{
 .nav-list-mobile{
     display:none;
     box-sizing: border-box;
-    background-color: #2854a4;
+    background-color: #3465df;
     
 }
 
 .nav-list-mobile a, ul{
-    color: #ff416d;
+    color: #abd2e3;
     font-size: 1.2rem;
     text-decoration: none;
     list-style: none;
@@ -176,7 +177,7 @@ header p{
     font-size: 30px;
     width: 30px;
     align-items: center;
-    height: 30
+    height: 30;
     font-weight: 800;
     display: none;
     background: #e7584d;
@@ -187,15 +188,9 @@ header p{
 
 }
 
-#mobile-abf{
-    text-align: center;
-    align-items: center;
-    cursor: pointer;
-    position: relative;
-    width: 30px;
-    height: 30px;
+
     
-}
+
 
 
 .abrir, .fechar{
@@ -270,4 +265,13 @@ header p{
         height: 60px;
         font-size: 1.1rem;
     }
+    #mobile-abf{
+    text-align: center;
+    align-items: center;
+    cursor: pointer;
+    position: relative;
+    width: 30px;
+    height: 30px;
+    
+}
 }

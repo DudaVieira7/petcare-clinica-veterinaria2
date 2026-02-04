@@ -14,10 +14,14 @@
 
 #vet-cat{
     width: 100%;
-    margin: 20px;
+    padding: 10px;
+    height: 100%;
+    margin-bottom: 20px;
+    object-fit: cover;
     border-radius: 5px;
     margin-left: auto;
     margin-right: auto;
+    
     
     
 }
@@ -33,7 +37,7 @@
     justify-content: center;
     text-align: center;
     box-shadow: 4px 4px 5px rgba(45, 45, 45, 0.045);
-    padding: auto;
+    padding: 20px;
     margin-left: auto;
     margin-right: auto;
     transition: ease 0.5s;
@@ -59,21 +63,26 @@
 
 
 .pets-atendimento i{
-    width: 50px;
-    height: 50px;
-    font-size: 3rem;
-    align-items: center;
-    margin: 5px;
+    width: 30;
+    height: 30%;
+    font-size: 1.75rem;
+    padding: 5px;
     color: #203f9a;
+    text-align: center;
 
     
 }
+
+#vet-titulo{
+    height: 20%;
+}
 .vet_dog{
     justify-content: center;
-    padding: 0 40px;
     align-items: stretch;
     flex-direction: column;
-    margin-top: 30px;
+    align-items: center;
+    width: 100%;
+    height: 40%;
 
 }
 .vet_dog h2{
@@ -87,23 +96,33 @@
     padding:  0  20px;
 }
 
+
+.container_servicos, .atendimento{
+    justify-content: space-around;
+    gap: 5px;
+}
+
 .atendimento{
     background-color: #f5f1f9fd;
-    height: 215px;
-    padding: 0 30px;
-    width: 80%;
+    max-height: 100%;
     border-radius: 10px;
     box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.049);
     border: 1.5px  solid #64ceaf;
+    height: 33%;
     display: flex;
     flex-direction: column;    
-    justify-content: center;  
+    justify-content: space-between;  
     align-items: center; 
     margin-left: auto; 
-    margin-right: auto; 
-    margin-top: 10px;    
+    margin-right: auto;
+    display: flex; 
+    text-align: center;
+    
+        
 
 }
+
+
 
 
     
@@ -112,12 +131,24 @@
 
 
 .atendimento h3{
-    font-size: 1.25rem;
+    
+    font-size: 1.2rem;
     color: #2854ad;
-    font-weight: 800;
+    max-height: 30%;
+    width: 100%;
+    text-align: center;
+   
     
     
 
+}
+.atendimento p{
+    width: 100%;
+    padding: 20px;
+}
+
+.atendimento  .pets-atendimento{
+    max-height: 30% ;
 }
 
 @media screen and (min-width:1024px) {
@@ -125,5 +156,10 @@
     #servicos{
         grid-template-columns: repeat(3,1fr);
     }
+
+    .atendimento{
+        
+        justify-content: space-evenly;
+}
 }
 
